@@ -2,7 +2,7 @@
 
 // QUESTÃO 2 - Ingresse um número e mostre o dia da semana. (Resolva com switch-case)
 
-public class Lab2Questao2 {   
+public class Questao2 {   
     public static void main(String[] args) {
         System.out.println("\n--------------------------------------------------\n");
         System.out.println("Questão 2 - SWITCH CASE\n\n\nDias da Semana!\n");
