@@ -1,13 +1,13 @@
-// VITÓRIA BARBOSA GOMES SOARES
-
 /*
-    QUESTÃO 3 - Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. 
-    Após, calcular e escrever o saldo atual (saldo atual = saldo - débito + crédito). 
-    Também testar se o saldo atual for maior ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'. 
-    (Resolva com if-else e operador ternário)
-*/
+ * VITÓRIA BARBOSA GOMES SOARES
+ * 
+ * Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. 
+ * Após, calcular e escrever o saldo atual (saldo atual = saldo - débito + crédito). 
+ * Também testar se o saldo atual for maior ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'. 
+ * (Resolva com if-else e operador ternário)
+ */
 
-public class Questao3 { 
+public class Questao03 { 
     public static void main(String[] args){
         double saldo = 140.00;
         double debito = 410.50;
@@ -44,7 +44,6 @@ public class Questao3 {
         }
     }
 
-    
     static void saldoClienteTernario(double saldo, double debito, double credito, double saldoAtual) {
         String statusConta = (saldoAtual >= 0) ? "\u001B[32m- Saldo Positivo! \u001B[0m" 
         : "\u001B[31m- Saldo Negativo! \u001B[0m";
