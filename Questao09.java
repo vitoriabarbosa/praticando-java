@@ -1,12 +1,12 @@
 /*
-ALUNA: VITÓRIA BARBOSA GOMES SOARES
-
-Implemente um programa que ordene os valores de um vetor de inteiros em ordem crescente. 
-Os valores iniciais do vetor podem ser preenchidos por teclado ou usando o método Math.random.
-*/
+ * VITÓRIA BARBOSA GOMES SOARES
+ * 
+ * Implemente um programa que ordene os valores de um vetor de inteiros em ordem crescente.
+ * Os valores iniciais do vetor podem ser preenchidos por teclado ou usando o método Math.random.
+ */
 
 import java.util.Scanner;
-public class Questao9 {
+public class Questao09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o tamanho do vetor: ");
