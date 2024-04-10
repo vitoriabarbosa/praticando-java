@@ -1,16 +1,15 @@
-// VITÓRIA BARBOSA GOMES SOARES
-
 /*
-  Desenvolva um programa que leia um intervalo, busque quantos números são múltiplos de 3 naquele intervalo, e mostre a soma destes números. 
-  Exemplo:
-  Intervalo: 1 à 10
-  Total de Múltiplos de 3: 3
-  Soma: 18
-*/
+ * VITÓRIA BARBOSA GOMES SOARES
+ * 
+ * Desenvolva um programa que leia um intervalo, busque quantos números são múltiplos de 3 naquele intervalo, e mostre a soma destes números.
+ * Exemplo:
+ *    Intervalo: 1 à 10
+ *    Total de Múltiplos de 3: 3
+ *    Soma: 18
+ */
 
 import java.util.Scanner;
-
-public class Questao5 {
+public class Questao05 {
     public static void main(String[] args) {
         Scanner scanner =  new Scanner(System.in);
         System.out.print("\nDigite o valor inicial: ");
